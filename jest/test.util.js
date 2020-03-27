@@ -12,7 +12,7 @@ governing permissions and limitations under the License.
 
 import React from 'react';
 import { mount } from 'enzyme';
-import Airglow from '../airglow';
+import Airglow from '../packages/airglow';
 
 export const renderAirglow = (children, props) => {
   let airglow;

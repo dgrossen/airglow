@@ -11,10 +11,9 @@ governing permissions and limitations under the License.
 */
 
 import React from 'react';
-import { renderAirglow } from 'airglow';
 import ReactStore, { connect } from '@airglow/store-react';
 import prefab from '@airglow/prefab';
-
+import { renderAirglow } from '../../../../jest/test.util';
 import plugin from '../../src/index';
 
 let tree;

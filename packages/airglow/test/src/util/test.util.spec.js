@@ -14,7 +14,7 @@ import React from 'react';
 import { assoc } from 'ramda';
 
 import { REDUCER } from '../../../src/types';
-import { renderAirglow, fakeStore } from '../../../src/util/test.util';
+import { renderAirglow, fakeStore } from '../../../../../jest/test.util';
 
 const slimePlugin = (engine) => {
   engine.plugin(REDUCER, (state, action) =>

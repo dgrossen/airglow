@@ -15,7 +15,7 @@ import { mount } from 'enzyme';
 import Airglow, {
   BOOTSTRAP_MODULE, BOOTSTRAP_PLUGIN, AirglowWrapper
 } from '../../src';
-import { fakeStore } from '../../src/util/test.util';
+import { fakeStore } from '../../../../jest/test.util';
 
 let diamonds;
 let tree;

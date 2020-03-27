@@ -13,9 +13,9 @@ governing permissions and limitations under the License.
 /* eslint-disable no-console */
 
 import React from 'react';
-import { renderAirglow } from 'airglow';
 import ReactStore from '@airglow/store-react';
 import { call } from '@airglow/reducers';
+import { renderAirglow } from '../../../../jest/test.util';
 import plugin from '../../src/index';
 
 let originalInfo;

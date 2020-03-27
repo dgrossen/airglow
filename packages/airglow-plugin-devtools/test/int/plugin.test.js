@@ -11,8 +11,8 @@ governing permissions and limitations under the License.
 */
 
 import React from 'react';
-import { renderAirglow } from 'airglow';
 import ReduxStore from '@airglow/store-redux';
+import { renderAirglow } from '../../../../jest/test.util';
 import plugin from '../../src/index';
 
 let tree;

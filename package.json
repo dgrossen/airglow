@@ -41,7 +41,7 @@
   },
   "jest": {
     "setupFilesAfterEnv": [
-      "<rootDir>./test.setup.js"
+      "<rootDir>./jest/test.setup.js"
     ],
     "testEnvironment": "jest-environment-jsdom-global",
     "collectCoverageFrom": [

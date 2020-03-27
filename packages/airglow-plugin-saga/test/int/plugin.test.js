@@ -12,8 +12,8 @@ governing permissions and limitations under the License.
 
 import React from 'react';
 import ReduxStore, { connect } from '@airglow/store-redux';
-import { renderAirglow } from 'airglow';
 import { takeEvery } from 'redux-saga/effects';
+import { renderAirglow } from '../../../../jest/test.util';
 import plugin, { SAGA } from '../../src/index';
 
 const FETCH = 'FETCH_REQUEST';

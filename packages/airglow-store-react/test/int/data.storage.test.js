@@ -12,7 +12,7 @@ governing permissions and limitations under the License.
 
 import React from 'react';
 import { call, initialize, slice, reduce } from '@airglow/reducers';
-import { renderAirglow } from 'airglow';
+import { renderAirglow } from '../../../../jest/test.util';
 import ReactStore, { connect } from '../../src';
 
 let tree;

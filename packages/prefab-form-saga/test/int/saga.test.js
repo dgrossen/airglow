@@ -11,7 +11,6 @@ governing permissions and limitations under the License.
 */
 
 import React from 'react';
-import { renderAirglow } from 'airglow';
 import ReduxStore, { connect } from '@airglow/store-redux';
 import prefabPlugin from '@airglow/plugin-prefab';
 import sagaPlugin from '@airglow/plugin-saga';
@@ -19,7 +18,7 @@ import testPlugin, { dispatchList } from '@airglow/plugin-test';
 import prefab from '@airglow/prefab';
 
 import '@airglow/prefab-form';
-
+import { renderAirglow } from '../../../../jest/test.util';
 import sagas from '../../src/index';
 
 let tree;
